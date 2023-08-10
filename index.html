@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta name="author" content="ajay">
     <meta name="description" content="student enrollment form">
+    <link rel="stylesheet" href="assets/style/style.css";>
     <title>Document</title>
 </head>
 <body>
+    <center><h2>STUDENT ENROLLMENT FORM</h2></center>
     <form>
+        <label for="fname">First Name :</label>
+    <input type="text" id="fname" name="fname"
+    placeholder="Enter your First  name">
+    <br><br>
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" name="lname"
+    placeholder="Enter your Last  name">
+    <br><br>
+    <label for="reg">Register Number :</label>
+    <input type="text" id="reg" name="reg"
+    placeholder="Enter your Register number">
+    <br><br>
+    <label for="mobile">Mobile Number :</label>
+    <input type="text" id="mobile" name="mobile"
+    placeholder="Enter your Mobile number">
+    <br><br>
+    <label for="gender">Gender : </label>
+    <input type="radio" id="gender" name="gender">Male
+    <input type="radio" id="gender" name="gender">Female
+    <br><br>
+    <label for="email">Email :</label>
+    <input type="text" id="email" name="email"
+    placeholder="Enter your Email">
+    <br><br>
+    <label for="dept">Department :</label>
+    <br> <br>
+    <input type="radio" id="dept" name="dept">CSE
+    <br>
+    <input type="radio" id="dept" name="dept">AIDS
+    <br>
+    <input type="radio" id="dept" name="dept">AIML
+    <br>
+    <input type="radio" id="dept" name="dept">EEE
+    <br>
+    <input type="radio" id="dept" name="dept">ECE
+    <br>
+    <input type="radio" id="dept" name="dept">BME
+    <br><br>
+     Year : <select name="Year"><option name="yr">I</option>
+                               <option name="yr">II</option>
+                               <option name="yr">III</option>
+                               <option name="yr">IV</option></select>
+    <br><br> 
+    Languages known :<br><br><input type="checkbox" name="lan">C<br>
+                             <input type="checkbox" name="lan">C++<br>
+                             <input type="checkbox" name="lan">Java<br>
+                             <input type="checkbox" name="lan">Python<br>
+    <br>
+    Available Slots :<br><br><input type="checkbox" name="slot">10 am<br>
+                            <input type="checkbox" name="slot">2 pm<br>
+                            <input type="checkbox" name="slot">5 pm<br>
+                            <br>
+<label for="fl">Resume :</label>
+<input type="file" id="fl"name="fl">
+<br><br>
+<center><button>Enroll</button></center>
 
         
     </form>
